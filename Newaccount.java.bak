@@ -1,0 +1,19 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class Newaccount extends JFrame 
+{
+
+	Newaccount()
+	{
+		setSize(600,600);
+		setLayout(null);
+		setVisible(true);
+	
+	}
+	public static void main(String[] args) 
+	{
+		new Newaccount();
+	}
+}
